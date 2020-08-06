@@ -24,12 +24,13 @@ const Landing: React.FC = () => {
 			</Text>
 			<View style={styles.buttonsContainer}>
 				<RectButton
-					onPress={() => handleNavigate('GiveClasses')}
+					onPress={() => handleNavigate('Study')}
 					style={[styles.button, styles.buttonPrimary]}
 				>
 					<Image source={studyIcon} />
 					<Text style={styles.buttonText}>Estudar</Text>
 				</RectButton>
+
 				<RectButton
 					onPress={() => handleNavigate('GiveClasses')}
 					style={[styles.button, styles.buttonSecondary]}
